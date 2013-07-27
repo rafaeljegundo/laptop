@@ -74,3 +74,22 @@ fancy_echo "Installing Heroku CLI client ..."
 
 fancy_echo "Installing the heroku-config plugin to pull config variables locally to be used as ENV variables ..."
   successfully heroku plugins:install git://github.com/ddollar/heroku-config.git
+
+fancy_echo "Installing brew-cask to install Mac applications distributed as binaries..."
+  successfully brew tap phinze/homebrew-cask
+  successfully brew install brew-cask
+
+fancy_echo "Installing Google Chrome app ..."
+  successfully brew cask install google-chrome
+
+fancy_echo "Installing Spectacle app ..."
+  successfully brew cask install spectacle
+
+fancy_echo "Installing Iterm2 app ..."
+  successfully brew cask install iterm2
+
+fancy_echo "Installing Postgres app ..."
+  successfully brew cask install postgres
+
+fancy_echo "Installing Spotify app ..."
+  successfully brew cask install spotify
