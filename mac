@@ -93,3 +93,6 @@ fancy_echo "Installing Postgres app ..."
 
 fancy_echo "Installing Spotify app ..."
   successfully brew cask install spotify
+  
+fancy_echo "Installing Hipchat app ..."
+  successfully brew cask install hipchat
